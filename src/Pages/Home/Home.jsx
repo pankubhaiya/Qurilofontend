@@ -99,7 +99,7 @@ const Home = () => {
       }
 
       const response = await axios.post(
-        "https://good-pink-dhole-robe.cyclic.app/upload",
+        "http://localhost:9090/upload",
         formDataToSend,
         {
           headers: {
